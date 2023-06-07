@@ -1,0 +1,13 @@
+[
+  verbose: false,
+  root: "./apps/api",
+  private: true,
+  skip: true,
+  router: "./apps/api/lib/api_web/router.ex",
+  exit: "low",
+  format: "compact",
+  out: "",
+  threshold: "low",
+  ignore: ["Config.HTTPS", "Config.Headers", "Traversal.FileModule"],
+  ignore_files: [""],
+]
